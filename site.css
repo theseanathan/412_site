@@ -1,0 +1,80 @@
+:root {
+    --title-color: #101419;
+    --bg-color: #FEFFEA;
+    --secondary-bg-color: #746F72;
+    --navbar-color: #735F3D;
+}
+
+html {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg-color);
+}
+
+.root { 
+    display: block;
+}
+
+.title {
+    font-family: 'K2D', sans-serif;
+    color: var(--title-color);
+}
+
+.centered {
+    text-align: center;
+}
+
+.sansSerif {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.sansSerif:hover {
+    color: white;
+}
+
+.navbar {
+    background-color: var(--navbar-color);
+    width: 100%;
+    height: 50px;
+    border: 0;
+    padding: 0;
+}
+
+.navbarElement {
+    float: left;
+    margin: 5px;
+    position: relative;
+    top: 10px;
+    width: 10%;
+}
+
+.container {
+    min-height: 600px;
+    height: 50vh;
+    width: 100%;
+}
+
+.centeredContainer {
+    padding: 5px;
+    background-color: var(--secondary-bg-color);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sixtyPercent {
+    width: 60%;
+    height: 100%;
+}
+
+.thirtyPercent {
+    background-color: transparent;
+    width: 400px;
+    height: auto;
+    text-align: centered;
